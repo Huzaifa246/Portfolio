@@ -73,6 +73,32 @@ export default function ProductList() {
           </Grid>
         ))}
       </Grid>
+      <div style={{ textAlign: "center" }}>
+        <h1
+          style={{
+            fontSize: "36px",
+            color: "#4a4a4a",
+            fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
+            fontWeight: "bold",
+            letterSpacing: "2px",
+            textTransform: "uppercase",
+          }}
+        >
+          More Projects Coming Soon!
+        </h1>
+        <p
+          style={{
+            fontSize: "20px",
+            color: "#4a4a4a",
+            fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
+            fontWeight: "bold",
+            letterSpacing: "1px",
+          }}
+        >
+          Stay tuned for our latest updates and exciting new projects!
+        </p>
+      </div>
+      <br />
     </>
   );
 }
