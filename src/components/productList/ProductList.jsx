@@ -8,15 +8,34 @@ import Grid from "@mui/material/Grid";
 import proj1 from "./proj1.jpg";
 import proj2 from "./proj2.JPG";
 import proj3 from "./proj3.JPG";
+import Afo from "../../img/afoImg.png";
+import Watspi from "../../img/watspi-user.png";
+import ITS from "../../img/trading-its.png";
+import "./productList.css";
 
 const sessionsData = [
+  {
+    Name: "AFO MEDIA",
+    Image: Afo,
+    Applink: "https://afomedia.com/",
+  },
+  {
+    Name: "ITS Trading App",
+    Image: ITS,
+    Applink: "https://trading-its-app.vercel.app/login",
+  },
+  {
+    Name: "Watspi Web App",
+    Image: Watspi,
+    Applink: "https://watspi-user.vercel.app/dashboard",
+  },
   {
     Name: "Quiz App in React",
     Image: proj1,
     Applink: "https://gleaming-creponne-4938a2.netlify.app/",
   },
   {
-    Name: "Front End Project Based on Html| CSS | JS",
+    Name: "Front End Project on Html| CSS | JS",
     Image: proj2,
     Applink: "https://coruscating-stroopwafel-464404.netlify.app/",
   },
@@ -41,9 +60,9 @@ export default function ProductList() {
             py={3} // use shorthand prop for vertical padding
             px={2} // use shorthand prop for horizontal padding
           >
-            <Card sx={{ maxWidth: 500 }}>
+            <Card sx={{ maxWidth: 500 }} className="Main_card">
               <CardMedia
-                sx={{ width: "100%", height: "auto" }} // set the image width to 100% of the card
+                sx={{ width: "100%", height: "60vh" }} // set the image width to 100% of the card
                 component="img"
                 height="120"
                 image={index.Image}
@@ -57,7 +76,6 @@ export default function ProductList() {
                 <hr />
 
                 <Typography variant="body2" color="text.secondary">
-                  <h2>LINK GIVEN BELOW</h2>
                   <Button size="large">
                     <a
                       href={index.Applink}
@@ -95,8 +113,13 @@ export default function ProductList() {
             letterSpacing: "1px",
           }}
         >
-          Stay tuned for our latest updates and exciting new projects!
+          Stay tuned for our latest updates and exciting new projects on my Github Account!
         </p>
+        <a href="https://github.com/Huzaifa246">
+          <h1>
+            <b> https://github.com/Huzaifa246 </b>
+          </h1>
+        </a>
       </div>
       <br />
     </>

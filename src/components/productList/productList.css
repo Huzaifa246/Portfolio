@@ -25,7 +25,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.Main_card:hover{
+    transition: 1sec ease-in-out;
+    box-shadow: 1px 5px 2px 1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    cursor: pointer;
+}
 @media screen and (max-width: 480px) {
     .pl {
         padding: 10px;
