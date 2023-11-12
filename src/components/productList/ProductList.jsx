@@ -17,7 +17,7 @@ const sessionsData = [
   {
     Name: "AFO MEDIA",
     Image: Afo,
-    Applink: "https://afomedia.com/",
+    Applink: "https://afomedia.com/login",
   },
   {
     Name: "ITS Trading App",
