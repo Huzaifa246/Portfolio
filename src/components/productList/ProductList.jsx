@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@mui/material/Grid";
 import proj1 from "./proj1.jpg";
 import proj2 from "./proj2.JPG";
-import proj3 from "./proj3.JPG";
+import proj3 from "../../img/next-js-portfolio.png";
 import Afo from "../../img/afoImg.png";
 import Watspi from "../../img/watspi-user.png";
 import ITS from "../../img/trading-its.png";
@@ -40,9 +40,9 @@ const sessionsData = [
     Applink: "https://coruscating-stroopwafel-464404.netlify.app/",
   },
   {
-    Name: "Calculator",
+    Name: "Next JS Protfolio",
     Image: proj3,
-    Applink: "https://simple-calculator-lcwm.vercel.app/",
+    Applink: "https://next-js-portfolio-henna.vercel.app/",
   },
 ];
 export default function ProductList() {
